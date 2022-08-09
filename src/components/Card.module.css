@@ -2,7 +2,6 @@
     display: grid;
     height: 100px;
     grid-template-rows: repeat(18, 3rem);
-    grid-template-columns: repeat(2, 50%);
     grid-auto-flow: column;
     }
 
@@ -56,7 +55,10 @@ footer{
     }
      .cards{
         display: grid;
-        font-size: 20px;
-        grid-template-rows: repeat(20, 1rem);
+        width: 100%;
+        height: auto;
+     }
+    .footer{
+        position: sticky;
     }
 }
