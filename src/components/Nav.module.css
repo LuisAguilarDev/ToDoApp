@@ -1,0 +1,50 @@
+.body{
+    margin:0px;
+  }
+  
+  .barrita{
+    display: flex;
+    justify-content: space-between;
+    background-color: #166929;
+    align-items: center;
+  }
+  
+  .logo{
+    padding: 5px;
+    height: 50px;
+    object-fit: cover;
+    object-position: 0px 0px;
+    border-radius: 10px;
+    }
+  
+  .arreglo{
+    display: flex;
+    align-items: center;
+    color: white;
+  }
+  
+  .btn{
+    border-width: 2;
+    font-weight: 700;
+    text-align: center;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 1px solid transparent;
+    border-radius: 0.25rem;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    border-color: #d0ff00;
+    color: white;
+    background-color: rgb(42, 116, 41);
+    margin: 2px;
+  }
+  
+  .input{
+    border-radius: 5px;
+    border-color: #00aeef;
+  }
+  .btn:hover{
+    background-color: rgb(18, 183, 16);
+    color: black;
+  }
