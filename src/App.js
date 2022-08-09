@@ -32,7 +32,7 @@ function App() {
       return x;
     });
     (function hola() {
-      toDo.map((x) => {
+      toDo.forEach((x) => {
         if (x.estado === "completado") {
           contador++;
         }
