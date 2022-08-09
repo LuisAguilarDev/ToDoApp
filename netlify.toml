@@ -1,0 +1,2 @@
+[construir]
+comando = "CI = npm ejecutar compilación"
