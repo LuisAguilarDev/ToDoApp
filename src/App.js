@@ -31,7 +31,7 @@ function App() {
       }
       return x;
     });
-    const todas = (function hola() {
+    (function hola() {
       toDo.map((x) => {
         if (x.estado === "completado") {
           contador++;
